@@ -49,7 +49,8 @@ public class LogicTest {
     }
 
     @Test
-    public void moveCustom() throws OccupiedCellException, ImpossibleMoveException, FigureNotFoundException {
+    public void moveCustom()
+            throws OccupiedCellException, ImpossibleMoveException, FigureNotFoundException {
         Logic logic = new Logic();
         BishopBlack bishopBlack = new BishopBlack(Cell.F8);
         logic.add(bishopBlack);
